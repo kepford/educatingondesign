@@ -386,7 +386,7 @@ h1.title {
   font-family: "League Gothic";
   font-size: 105px;
   font-weight: bold;
-  margin: 20px 0 0 0;
+  margin: 20px 0 0 8px;
 }
 
 h2 {
@@ -443,7 +443,6 @@ ul li {
 
 #speakers {
   padding-top: 10px;
-  border-top: 1px dashed #cccccc;
 }
 
 #speakers-inner {
@@ -457,8 +456,8 @@ ul li {
 
 #speakers h2 {
   margin: 0 10px 10px;
-  font-size: ;
-  font-weight: ;
+  padding: 10px 0 0 0;
+  border-top: 1px dashed #cccccc;
 }
 
 #speakers h3 {
@@ -466,13 +465,6 @@ ul li {
 }
 
 
-#sponsors {
-  border-top: 1px dashed #cccccc;
-}
-
-#sponsors-inner {
-  padding: 10px 0;
-}
 
 #day {
   font-size: ;
@@ -488,14 +480,6 @@ ul li {
   font-size: 12px;
   margin-bottom: 5px;
 }
-#registration {
- /** margin: 20px 0 12px;
-  background: #c1c476;
-  max-width: 200px;
-  padding: 10px 20px;
-  text-align: center;
-  border: 1px solid #cccccc; **/
-}
 
 #registration a {
   background:none repeat scroll 0 0 #C1C476;
@@ -508,7 +492,7 @@ ul li {
   text-align:center;
   text-decoration:none;
   text-transform:uppercase;
-  width:200px;
+  width:220px;
   font-size: 24px;
 }
 
@@ -521,14 +505,20 @@ ul li {
 
 /** Sponsor Section **/
 
-#sponsors {
 
+
+#sponsors-inner {
+  padding: 10px 0;
+  margin: 0 10px;
+  border-top: 1px dashed #cccccc;
 }
+
+
 
 #sponsors p {
   font-size: 12px;
   line-height: normal;
-  margin: 0;
+  margin: 6px 0;
   padding: 0;
 }
 
@@ -548,4 +538,8 @@ ul li {
 
 #sponsors ul li a img#fcoe {
   width: 65px;
+}
+
+#sponsors-inner .grid_8, #sponsors grid_4 {
+  margin: 0;
 }
