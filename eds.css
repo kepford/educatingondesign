@@ -1,11 +1,11 @@
 @font-face {
-  font-family: "League Gothic";
-  src: url("type/league_gothic-webfont.eot");
-  src: local("☺"),
-    url("type/league_gothic-webfont.woff") format("woff"),
-    url("type/league_gothic.otf") format("opentype"),
-    url("type/league_gothic-webfont.svg#filename") format("svg");
-  }
+	font-family: 'LeagueGothicRegular';
+	src: url('type/League_Gothic-webfont.eot');
+	src: local('☺'), url('type/League_Gothic-webfont.woff') format('woff'), url('type/League_Gothic-webfont.ttf') format('truetype'), url('type/League_Gothic-webfont.svg#webfontOTINA1xY') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
 
 
 
@@ -383,9 +383,9 @@ p {
 }
 
 h1.title {
-  font-family: "League Gothic";
+  font-family: 'LeagueGothicRegular';
   font-size: 105px;
-  font-weight: bold;
+  font-weight: normal;
   margin: 20px 0 0 8px;
 }
 
@@ -406,9 +406,9 @@ h3 {
 
 #description {
   color: #989898;
-  font-family: "League Gothic";
+  font-family: 'LeagueGothicRegular';
   font-size: 41px;
-  font-weight: bold;
+  font-weight: normal;
   font-stretch: ;
 }
 
