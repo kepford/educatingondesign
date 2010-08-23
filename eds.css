@@ -6,6 +6,24 @@
 	font-style: normal;
 }
 
+@font-face {
+	font-family: 'OFLSortsMillGoudyRegular';
+	src: url('type/OFLGoudyStM-webfont.eot');
+	src: local('☺'), url('type/OFLGoudyStM-webfont.woff') format('woff'), url('type/OFLGoudyStM-webfont.ttf') format('truetype'), url('type/OFLGoudyStM-webfont.svg#webfontwzHaehaw') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'OFLSortsMillGoudyItalic';
+	src: url('type/OFLGoudyStM-Italic-webfont.eot');
+	src: local('☺'), url('type/OFLGoudyStM-Italic-webfont.woff') format('woff'), url('type/OFLGoudyStM-Italic-webfont.ttf') format('truetype'), url('type/OFLGoudyStM-Italic-webfont.svg#webfontRrg0pQHE') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
 
 
 
@@ -382,6 +400,25 @@ p {
   margin: 0 0 20px 0;
 }
 
+
+
+h1.title {
+font-family: 'OFLSortsMillGoudyRegular', serif;
+font-size: 105px;
+font-weight: normal;
+margin: 20px 0 0 8px;
+}
+
+#description {
+color: #989898;
+font-family: 'OFLSortsMillGoudyRegular', serif;
+font-size: 40px;
+font-weight: normal;
+}
+
+
+/**  commenting out the league gothic font face 
+
 h1.title {
   font-family: 'LeagueGothicRegular';
   font-size: 105px;
@@ -389,11 +426,22 @@ h1.title {
   margin: 20px 0 0 8px;
 }
 
+#description {
+  color: #989898;
+  font-family: 'LeagueGothicRegular';
+  font-size: 41px;
+  font-weight: normal;
+  font-stretch: ;
+}
+
+**/
+
 h2 {
   color: ;
   margin: 0;
   font-weight: normal;
   font-size: 26px;
+  font-family: 'OFLSortsMillGoudyRegular',serif;
 }
 
 #date-reg h2 {
@@ -404,13 +452,7 @@ h3 {
   font-weight: normal;
 }
 
-#description {
-  color: #989898;
-  font-family: 'LeagueGothicRegular';
-  font-size: 41px;
-  font-weight: normal;
-  font-stretch: ;
-}
+
 
 .container_12 {
   clear: both;
@@ -462,6 +504,7 @@ ul li {
 
 #speakers h3 {
   margin: 10px 0;
+  font-family: 'OFLSortsMillGoudyRegular',serif;
 }
 
 
