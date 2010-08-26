@@ -507,7 +507,25 @@ ul li {
   font-family: 'OFLSortsMillGoudyRegular',serif;
 }
 
+#speakers p {
+  margin: 0 0 15px;
+  font-size: 13px;
+  height: 395px;
+}
 
+
+#speakers #site-link {
+}
+
+#speakers #twitter-link {
+  margin: 5px 0;
+}
+
+#speakers #site-link a, #speakers #twitter-link a {
+  font-size: 13px;
+  text-decoration: none;
+  color: #3388AA;
+}
 
 #day {
   font-size: ;
