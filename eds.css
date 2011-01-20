@@ -508,11 +508,19 @@ ul li {
 }
 
 #speakers p {
-  margin: 0 0 15px;
+  margin: 15px 0;
   font-size: 13px;
   height: 395px;
 }
 
+#speakers .slidedeck a, #speakers .slidedeck a:visited, #speakers .presentation a, #speakers .presentation a:visited {
+  color: #3388AA;
+  font-size: 12px;
+}
+
+#speakers .slidedeck {
+  margin-bottom: 5px;
+}
 
 #speakers #site-link {
 }
@@ -566,6 +574,27 @@ ul li {
   margin-left: 0px;
 }
 
+#watch a {
+  background:none repeat scroll 0 0 #C1C476;
+  border:2px solid #CCCCCC;
+  color:#211510;
+  display:block;
+  font-size:20px;
+  margin:20px 0 10px;
+  padding:12px 20px 8px;
+  text-align:center;
+  text-decoration:none;
+  text-transform:uppercase;
+  width:220px;
+  font-size: 24px;
+}
+
+#watch-info {
+  font-size: 12px;
+  margin-left: 0px;
+}
+
+
 
 
 /** Sponsor Section **/
@@ -612,4 +641,29 @@ ul li {
 
 #sponsors-inner .grid_8, #sponsors grid_4 {
   margin: 0;
+}
+
+
+/** Slides and Audio **/
+
+#slides-audio dl {
+  float: left;
+  width: 150px;
+  margin: 5px 0 10px 0;
+}
+
+#slides-audio dt {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+#slides-audio dd {
+  margin: 0;
+  font-size: 12px;
+  padding: 3px 0;
+}
+
+#slides-audio dd a {
+  color: #3388AA;
+  text-decoration: none;
 }
