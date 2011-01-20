@@ -642,3 +642,28 @@ ul li {
 #sponsors-inner .grid_8, #sponsors grid_4 {
   margin: 0;
 }
+
+
+/** Slides and Audio **/
+
+#slides-audio dl {
+  float: left;
+  width: 150px;
+  margin: 5px 0 10px 0;
+}
+
+#slides-audio dt {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+#slides-audio dd {
+  margin: 0;
+  font-size: 12px;
+  padding: 3px 0;
+}
+
+#slides-audio dd a {
+  color: #3388AA;
+  text-decoration: none;
+}
